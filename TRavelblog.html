@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <style>
+        .navigation {
+            background-color: #526D96;
+            height: 43px;
+            width: 1094px;         
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        .search {
+            background-color: #FEFBF3;
+            border: none;
+            color: rgb(51, 51, 51);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, 
+                        "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "Apple Color Emoji", 
+                        "Segoe UI Emoji", "Segoe UI Symbol", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, 
+                        Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+            font-size: 16px;
+            font-weight: normal;
+            position: absolute;
+            top: 10px; 
+            left: 210px; 
+            z-index: 2; 
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            padding-right: 300px;
+            border: none;
+            border-radius: 10px;
+            margin-left: 110px;
+            padding-left: 30px;
+            cursor:text;
+        }
+        .search:hover{
+          background-color: wheat;
+        }
+        
+        .about-us{
+          position: absolute;
+          font-size: 16px;
+          font-weight: normal;
+          top: 10px; 
+          left: 210px; 
+          z-index: 2; 
+          cursor: pointer;
+          transition: 0.3s ease-in-out;
+          border: none;
+          margin-left: 800px;
+          margin-top: 2px;
+          font: italic;
+          
+        }
+        .line{
+          height: 30px;
+          width: 3%;
+          position: absolute;
+          z-index: 2;
+          cursor: pointer;
+          transition: 0.3s ease-in-out;
+        }
+        .line:hover{/*psuede clas. kapag hinover mo magchachange*/
+          color: #EF9587;
+        }
+        .notification{
+          height: 30px;
+          width: 3%;
+          position: absolute;
+          z-index: 2;
+          cursor: pointer;
+          transition: 0.3s ease-in-out;
+          margin-left: 940px;
+        }
+        .username{
+          margin-top: 150px;
+          margin-left: 400px;
+          z-index: 3;
+          position: absolute;
+          font-size: 18px;
+          background-color: #EF9587;
+          border-radius: 15px;
+          border: none;
+          color: #FEFBF3;
+          padding-right: 70px;
+          padding-top: 6px;
+          padding-bottom: 6px;
+          padding-left: 8px;
+          scroll-behavior: smooth;
+          cursor:text;
+
+        }
+        .password{
+          margin-top: 190px;
+          margin-left: 400px;
+          z-index: 3;
+          position: absolute;
+          font-size: 18px;
+          background-color: #EF9587;
+          border-radius: 15px;
+          border: none;
+          color: #FEFBF3;
+          padding-right: 70px;
+          padding-top: 6px;
+          padding-bottom: 6px;
+          padding-left: 8px;
+          scroll-behavior: smooth;
+          cursor:text;
+
+        }
+        .navigation-two{
+          border: none;
+          background-color: #526D96;
+          height: 100px;
+          width: 1094px;         
+          position: absolute;
+          z-index: 3;
+          margin-top: 600px;
+          overflow: scroll;
+
+
+          
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation"></div>
+    <button class="search">Search</button>
+    <h5 class="about-us">About Us</h5>
+    <button class="line"><image class="line" src="navagation.png"></image></button>
+    <image class="notification" src="notification.png"></image>
+    <h5 class="username">Username</h5>
+    <h5 class="password">Password</h5>
+    <div class="navagation-two"></div>
+    
+</body>
+</html>
